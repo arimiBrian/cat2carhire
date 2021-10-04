@@ -1,0 +1,17 @@
+{% extends "base_template.html" %}
+
+{% block content    %}
+
+{% for item in all_objects %}
+{{item.registration}}</br>
+{{item.car_type}}</br>
+{{item.car_make}}</br>
+{{item.car_model}}</br>
+{{item.description}}</br>
+{{item.image}}
+{% endfor %}
+
+{% endblock content %} 
+
+
+
